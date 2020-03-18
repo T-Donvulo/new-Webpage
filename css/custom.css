@@ -1,0 +1,80 @@
+.img1 {
+    float: right;
+    padding-right: 5em;
+}
+
+.img2 {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    overflow: auto;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.myCity {
+    width: 100%;
+}
+
+.img2 {
+    float: right;
+}
+
+.img3 {
+    float: right;
+}
+
+.img4 {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, 
+td,
+th {
+    border: 1px solid black;
+}
+
+.first {
+    border: 1px white solid;
+    float: right;
+    margin-right: 10px;
+}
+
+.second {
+    border: 1px white solid;
+    float: right;
+    margin-right: 10px;
+}
+
+.three {
+    border: 1px white solid;
+    float: right;
+    margin-right: 10px;
+}
+
+.myCity {
+    float: right;
+    display: flex;
+    margin: 25px 10px;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media(min-width: 800px) {
+    .history {
+        display: flex;
+    }
+    .myCity {
+        width: 100%;
+    }
+}
