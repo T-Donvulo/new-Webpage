@@ -1,41 +1,38 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/simple-grid.css">
     <link rel="stylesheet" href="css/custom.css">
-    <title>basic webpage</title>
-</head>
+    <title>Simple Grid </title>
 
+
+</head>
 <body>
     <div class="container">
 
-        <div class="header">
+        <!--First-->
 
-            <div class="clearfix">
-
-                <div class="img1">
-                    <img src="images/Webp.net-resizeimage (10).jpg">
-                </div>
-                <div class="names">
-                <h1>Thato</h1>
-                <h1>Donvulo</h1>
-                    </div>
-
+        <div class="row">
+            <div class="cal-6">
+                <img src="images/Webp.net-resizeimage (10).jpg" style=" float:right; padding-right:5em;">
             </div>
+            <div class="col-6">
+                <h1 style="padding-left:5em">Thato</h1>
+                <h1 style="padding-left:5em">Donvulo</h1>
+            </div>
+
         </div>
-        <hr>
+<br />
+        <hr />
 
+        <!--Second-->
+        <div class="row">
+            <div class="col-12">
+                <h1>My City</h1>
+                <img src="./images/Webp.net-resizeimage (8).jpg" style="float: left; padding-right:20px">
 
-        <h1>My City</h1>
-        <div class="myCity">
-
-            <div class="img2">
-                <img src="images/Webp.net-resizeimage (8).jpg">
-            </div>
-
-            <div class="city">
                 <p>
                     It's high time we as Africans invested in our own continet, touring could be one of many ways of
                     doing that. We could get to go around, invest in our own continent, know it and know our brothers
@@ -52,67 +49,62 @@
                 </p>
 
             </div>
-            <br/>
-
-
         </div>
-        <hr>
+        <br />
 
-        <div class="language">
+        <!--Third-->
+        <div class="row">
+            <div class="col-12">
+                <h2>Foreign Language: Swahili</h2>
+                <p>
+                    Swahili is one of the most spoken languages in our Continent, it would be create if I could be able to
+                    speak it
+                    as I tour around the Continent, I would be able to communicate a lot without having to use English the
+                    time.
+                    It was once said that if you speak with someone in a laguage they understand they will
+                </p>
+                <table border="1">
 
-            <h3>Foreign Language: Swahili</h3>
-            <p>
-                Swahili is one of the most spoken languages in our Continent, it would be create if I could be able to
-                speak it
-                as I tour around the Continent, I would be able to communicate a lot without having to use English the
-                time.
-                It was once said that if you speak with someone in a laguage they understand they will
-            </p>
+                    <tr>
+                        <th>Swahili</th>
+                        <th>English</th>
+                    </tr>
 
-            <table style="border-collapse: collapse;" border="1">
+                    <tr>
+                        <td>Mimi huenda kufanya manunuzi</td>
+                        <td>I go shopping</td>
+                    </tr>
 
-                <tr>
-                    <th>Swahili</th>
-                    <th>English</th>
-                </tr>
+                    <tr>
+                        <td>Yeye hukimbia</td>
+                        <td>She runs</td>
+                    </tr>
 
-                <tr>
-                    <td>Mimi huenda kufanya manunuzi</td>
-                    <td>I go shopping</td>
-                </tr>
+                    <tr>
+                        <td>kutazama sinema</td>
+                        <td>to watch a movie</td>
+                    </tr>
+                    <tr>
+                        <td>Wewe huongea</td>
+                        <td>You say</td>
+                    </tr>
 
-                <tr>
-                    <td>Yeye hukimbia</td>
-                    <td>She runs</td>
-                </tr>
+                </table>
 
-                <tr>
-                    <td>kutazama sinema</td>
-                    <td>to watch a movie</td>
-                </tr>
-
-                <tr>
-                    <td>Wewe huongea</td>
-                    <td>You say</td>
-                </tr>
-
-            </table>
-
+            </div>
         </div>
-        <hr>
-        s
-            <h3 align="center">Historic places</h3>
-            <div class="History clearfix">
 
-                <div class="first">
+        <!--Fourth-->
+        <!--semi 4th-->
+        <div class="col-12">
+            <h2 align="center">Historic places</h2>
+            <div class="history">
+
+                <div class="first clearfix">
                     <div>
-                        <h3>Disctrict Six</h3>
+                        <h3 align="center">Disctrict Six</h3>
                     </div>
-
-                    <div class="img3">
-                        <img src="images/District6.jpg">
-                    </div>
-                    
+                    <img class="img2" src="images/District6.jpg">
                     <ul>
                         <li>District Six Museum is a museum in the former inner-city IN THE AREAOF HND
 
@@ -129,22 +121,21 @@
                     </ul>
                 </div>
 
-
-                <div class="second">
+                <div class="second clearfix">
                     <div>
-                        <h3>Parliament of SA</h3>
+                        <h3 align="center">Parliament of SA</h3>
                     </div>
-
-                    <div class="img4">
-                        <img src="images/Parliament.jpg">
-                    </div>
+                    <img class="img3" src="images/Parliament.jpg">
                     <ul>
                         <li>
                             The Parliament of South Africa is South Africa's legislature; under the present Constitution
                             of South Africa, the bicameral Parliament comprises a National Assembly and a National Council
                             of Provinces
                         </li>
-                        <li>he current twenty-seventh Parliament was first convened on 22 May 2019.</li>
+                        <li>
+                            he current twenty-seventh Parliament was first convened on 22 May 2019.
+
+                        </li>
                         <li>
                             From 1910 to 1994, members of Parliament were elected chiefly by the South African white
                             minority.
@@ -153,49 +144,47 @@
                     </ul>
                 </div>
 
-                <div class="three">
-                    <div>
-                        <h3>Castle of Good Hope</h3>
-                    </div>
 
-                    <div class="img5">
-                        <img src="images/Castle.jpg">
-                    </div>
-
+                <div class="three clearfix">
                     <div>
-                        <ul>
-                            <li>
-                                The Castle of Good Hope is known locally as "The Castle". Its Dutch name is "Kasteel de Goede
-                                Hoop" and
-                                is a bastion fort built in the 17th century in Cape Town, South Africa.
-                            </li>
-                            <li>
-                                The Castle was originally located on the coastline of Table Bay but, following reclamation,
-                                the fort is now located a short distance inland within the Central Business District.
-                            </li>
-                            <li>
-                                The Castle was declared a historical monument (now a provincial heritage site) in 1936.
-                                Following restoration work in the 1980s, it is considered the best preserved example of a 17th
-                                century
-                                architectural structure in the entire world.
-                            </li>
-                        </ul>
+                        <h3 align="center">Castle of Good Hope</h3>
                     </div>
+                    <img class="img4" src="images/Castle.jpg">
+
+                    <ul>
+                        <li>
+                            The Castle of Good Hope is known locally as "The Castle". Its Dutch name is "Kasteel de Goede
+                            Hoop" and
+                            is a bastion fort built in the 17th century in Cape Town, South Africa.
+                        </li>
+                        <li>
+                            The Castle was originally located on the coastline of Table Bay but, following reclamation,
+                            the fort is now located a short distance inland within the Central Business District.
+                        </li>
+                        <li>
+                            The Castle was declared a historical monument (now a provincial heritage site) in 1936.
+                            Following restoration work in the 1980s, it is considered the best preserved example of a 17th
+                            century
+                            architectural structure in the entire world.
+                        </li>
+                    </ul>
+
                 </div>
 
             </div>
-        
+
+        </div>
+        <div>
+            <div>
+
+            </div>
+        </div>
+
     </div>
 
     <footer style="text-align:center; background-color: blue;">
-        MADE BY: Donvulo Donvutha Thato. Contact Details: e-mail donvutha811@gmail.com: Instagram - thatodonvulo: Twitter - @Thato12370244
+      &copy;  MADE &reg; BY: Donvulo Donvutha Thato. Contact Details: e-mail donvutha811@gmail.com: Instagram - thatodonvulo: Twitter - @Thato12370244
     </footer>
-        
-   
-    
 
 </body>
-
-
-
 </html>
