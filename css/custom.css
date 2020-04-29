@@ -65,6 +65,10 @@ th {
     
 }
 
+.footer {
+    text-align: center;
+    background-color: blue;
+}
 
 
 [class*="col-"] {
@@ -83,6 +87,10 @@ th {
     .img{
         display:flex;
     }
+ .footer {
+    display: flex;
+    }
 }
+
 
 
